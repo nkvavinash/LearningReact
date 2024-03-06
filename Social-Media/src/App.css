@@ -1,0 +1,16 @@
+.app-container{
+display: flex;
+min-height: 800%;
+}
+.content{
+  width: 100%;
+}
+
+.sidebar{
+
+
+}.createpost{
+
+  width: 50%;
+  position:absolute
+}
