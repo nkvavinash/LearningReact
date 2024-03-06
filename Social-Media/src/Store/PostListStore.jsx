@@ -37,7 +37,6 @@ const DEFAULT_POST_LIST =[
   userId: "user-9",
   tags: ["vaction","Mumbai","Enjoying"],
 
-
 },
 {
   id: '2',
