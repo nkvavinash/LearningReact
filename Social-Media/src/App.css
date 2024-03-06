@@ -1,16 +1,19 @@
 .app-container{
 display: flex;
-min-height: 800%;
+
 }
 .content{
   width: 100%;
 }
 
 .sidebar{
+  min-height: 800px;
 
 
 }.createpost{
 
   width: 50%;
-  position:absolute
+  position:absolute;
+  padding-left: 10pt;
+  padding-top: 20pt;
 }
