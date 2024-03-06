@@ -4,16 +4,24 @@ display: flex;
 }
 .content{
   width: 100%;
+  
 }
 
 .sidebar{
-  min-height: 800px;
-
-
-}.createpost{
+  min-height: 1000px;
+}
+.createpost{
 
   width: 50%;
   position:absolute;
   padding-left: 10pt;
   padding-top: 20pt;
+}
+
+.logofont{
+
+  font-style: sans-serif ;
+ font-size: 1rem;
+line-height: 1.5;
+text-underline-offset: 1pt;
 }

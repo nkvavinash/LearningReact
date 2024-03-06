@@ -7,28 +7,31 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import SideBar from './Components/SideBar';
 import CreatePost from './Components/CreatePost';
+import Post from './Components/Post';
+import PostList from './Components/PostList';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [selectedTab, setSelectedTab] = useState("Home")
 
   return (
     
   <>
   <div className="app-container">
-      <SideBar></SideBar>
+      <SideBar selectedTab={selectedTab} setSelectedTab={setSelectedTab}></SideBar>
       <div className="content">
         <Header></Header>
-        <div className="createpost">
-          <CreatePost></CreatePost>
-        </div>
+        {selectedTab === "Home" ? (
+        <PostList></PostList>
+        ):(<CreatePost></CreatePost>)
+
+}
       </div>
     </div><div className='footer'>
         <Footer></Footer>
       </div>
       
-      </>
-        
-   
+   </>
+      
   )
 }
 
